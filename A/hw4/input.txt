@@ -1,5 +1,9 @@
-7 3
-abacaba
-ab
-ac
-bb
+5 3
+POLTE
+RWYMS
+OAIPT
+BDANR
+LEMES
+OLYMPIAD
+PROBLEM
+TEST

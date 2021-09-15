@@ -3,8 +3,8 @@ if __name__ == '__main__':
         first = fin.readline().strip()
         second = fin.readline().strip()
 
-    firstnumbers = {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0}
-    secondnumbers = {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0}
+    firstnumbers = {n: 0 for n in range(10)}
+    secondnumbers = {n: 0 for n in range(10)}
 
     for char in first:
         firstnumbers[int(char)] += 1
